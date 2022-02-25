@@ -682,8 +682,847 @@ a[class*="__tel"]:hover {
 
 /* ===================================== */
 /* ===================================== */
+.services {
+  background: #fffae6;
+}
+
+.main-services {
+  padding: 100px 0px 115px 0px;
+}
+
+.main-services__body {
+  font-size: 0;
+}
+
+.main-services__salon {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-services__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: calc(73 / 60);
+  text-transform: uppercase;
+  color: #101010;
+  margin: 0px 0px 21px 0px;
+}
+
+.main-services__subtitle {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #656363;
+  max-width: 365px;
+  margin: 0px 0px 60px 0px;
+}
+
+.main-services__btn {
+  max-width: 380px;
+  display: block;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.main-services__btn:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.main-services__images {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-services__img01 {
+  margin: 0px 0px 0px 250px;
+}
+
+.main-services__img02 {
+  bottom: 100px;
+}
+
+/* ===================================== */
+.coloring-services {
+  padding: 50px 0px 100px 0px;
+}
+
+.coloring-services__body {
+  text-align: center;
+}
+
+.coloring-services__item {
+  display: inline-block;
+  width: 30%;
+}
+
+.coloring-services__item:not(:last-child) {
+  margin: 0px 50px 0px 0px;
+}
+
+.coloring-services__img {
+  margin: 0px 0px 20px 0px;
+}
+
+.coloring-services__heading {
+  margin: 0px 0px 15px 0px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #101010;
+}
+
+.coloring-services__price {
+  margin: 0px 0px 27px 0px;
+}
+
+/* ===================================== */
+.portfolio-services {
+  padding: 100px 0px;
+}
+
+.portfolio-services__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.portfolio-services__block:not(:last-child) {
+  margin: 0px 0px 70px 0px;
+}
+
+.portfolio-services__heading {
+  text-align: left;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #d0202a;
+  margin: 0px 0px 60px 0px;
+}
+
+.portfolio-services__item {
+  display: inline-block;
+  width: 49%;
+}
+
+.portfolio-services__sub-item {
+  text-align: left;
+  font-size: 0;
+}
+
+.portfolio-services__sub-item:not(:last-child) {
+  margin: 0px 0px 30px 0px;
+}
+
+.portfolio-services__type-of-service {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.portfolio-services__type-of-service::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bebebe;
+  margin: 10px 0px 0px 0px;
+}
+
+.portfolio-services__price {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.portfolio-services__price::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bebebe;
+  margin: 10px 0px 0px 0px;
+}
+
+.portfolio-services__material {
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #656363;
+  margin: 7px 0px 0px 0px;
+}
+
+/* ===================================== */
+.advantages-services {
+  padding: 130px 0px;
+}
+
+.advantages-services__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.advantages-services__body {
+  text-align: center;
+}
+
+.advantages-services__item {
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.advantages-services__item:not(:nth-child(3n)) {
+  margin: 0px 140px 0px 0px;
+}
+
+.advantages-services__num {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70%;
+  text-transform: uppercase;
+  color: #d0202a;
+}
+
+.advantages-services__num::after {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid #bebebe;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+.advantages-services__text {
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px 0px 30px 0px;
+}
+
 /* ===================================== */
 /* ===================================== */
+.cosmetology {
+  background: #fffae6;
+}
+
+.main-cosmetology {
+  padding: 100px 0px 115px 0px;
+}
+
+.main-cosmetology__body {
+  font-size: 0;
+}
+
+.main-cosmetology__salon {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-cosmetology__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: calc(73 / 60);
+  text-transform: uppercase;
+  color: #101010;
+  margin: 0px 0px 21px 0px;
+}
+
+.main-cosmetology__subtitle {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #656363;
+  max-width: 365px;
+  margin: 0px 0px 60px 0px;
+}
+
+.main-cosmetology__btn {
+  max-width: 380px;
+  display: block;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.main-cosmetology__btn:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.main-cosmetology__images {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-cosmetology__images img {
+  vertical-align: bottom;
+}
+
 /* ===================================== */
+.coloring-cosmetology {
+  padding: 50px 0px 100px 0px;
+}
+
+.coloring-cosmetology__body {
+  text-align: center;
+}
+
+.coloring-cosmetology__item {
+  display: inline-block;
+  width: 30%;
+}
+
+.coloring-cosmetology__item:not(:last-child) {
+  margin: 0px 50px 0px 0px;
+}
+
+.coloring-cosmetology__img {
+  margin: 0px 0px 20px 0px;
+}
+
+.coloring-cosmetology__heading {
+  margin: 0px 0px 15px 0px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #101010;
+}
+
+.coloring-cosmetology__price {
+  margin: 0px 0px 27px 0px;
+}
+
+/* ===================================== */
+.portfolio-cosmetology {
+  padding: 100px 0px;
+}
+
+.portfolio-cosmetology__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.portfolio-cosmetology__block:not(:last-child) {
+  margin: 0px 0px 70px 0px;
+}
+
+.portfolio-cosmetology__heading {
+  text-align: left;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #d0202a;
+  margin: 0px 0px 60px 0px;
+}
+
+.portfolio-cosmetology__item {
+  display: inline-block;
+  width: 49%;
+}
+
+.portfolio-cosmetology__sub-item {
+  text-align: left;
+  font-size: 0;
+}
+
+.portfolio-cosmetology__sub-item:not(:last-child) {
+  margin: 0px 0px 30px 0px;
+}
+
+.portfolio-cosmetology__type-of-service {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.portfolio-cosmetology__type-of-service::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bebebe;
+  margin: 10px 0px 0px 0px;
+}
+
+.portfolio-cosmetology__price {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.portfolio-cosmetology__price::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #bebebe;
+  margin: 10px 0px 0px 0px;
+}
+
+.portfolio-cosmetology__material {
+  text-align: left;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #656363;
+  margin: 7px 0px 0px 0px;
+}
+
+/* ===================================== */
+.cosmetology-advantages {
+  padding: 130px 0px;
+}
+
+.cosmetology-advantages__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.cosmetology-advantages__body {
+  text-align: center;
+}
+
+.cosmetology-advantages__item {
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.cosmetology-advantages__item:not(:nth-child(3n)) {
+  margin: 0px 140px 0px 0px;
+}
+
+.cosmetology-advantages__num {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70%;
+  text-transform: uppercase;
+  color: #d0202a;
+}
+
+.cosmetology-advantages__num::after {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid #bebebe;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+.cosmetology-advantages__text {
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px 0px 30px 0px;
+}
+
+/* ===================================== */
+/* ===================================== */
+.potrfolio {
+  background: #fffae6;
+}
+
+.main-potrfolio {
+  background: url("../img/portfolio/main/bg.jpg") 50% 50%/cover no-repeat;
+  padding: 100px 0px 115px 0px;
+}
+
+.main-potrfolio__body {
+  font-size: 0;
+}
+
+.main-potrfolio__salon {
+  display: inline-block;
+}
+
+.main-potrfolio__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: calc(73 / 60);
+  text-transform: uppercase;
+  color: #fffae6;
+  margin: 0px 0px 21px 0px;
+}
+
+.main-potrfolio__subtitle {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #ffffff;
+  max-width: 365px;
+  margin: 0px 0px 60px 0px;
+}
+
+.main-potrfolio__btn {
+  max-width: 380px;
+  display: block;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.main-potrfolio__btn:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.main-potrfolio__images {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-potrfolio__images img {
+  vertical-align: bottom;
+}
+
+.jobs-portfolio {
+  padding: 100px 0px;
+}
+
+.jobs-portfolio__btn-s {
+  text-align: center;
+  margin: 0px 0px 75px 0px;
+}
+
+.jobs-portfolio__btn {
+  display: inline-block;
+}
+
+.jobs-portfolio__btn:not(:last-child) {
+  margin: 0px 15px 0px 0px;
+}
+
+.jobs-portfolio__body {
+  text-align: center;
+}
+
+.potrfolio-advantages {
+  padding: 130px 0px;
+}
+
+.potrfolio-advantages__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.potrfolio-advantages__body {
+  text-align: center;
+}
+
+.potrfolio-advantages__item {
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.potrfolio-advantages__item:not(:nth-child(3n)) {
+  margin: 0px 140px 0px 0px;
+}
+
+.potrfolio-advantages__num {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70%;
+  text-transform: uppercase;
+  color: #d0202a;
+}
+
+.potrfolio-advantages__num::after {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid #bebebe;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+.potrfolio-advantages__text {
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px 0px 30px 0px;
+}
+
+/* ===================================== */
+/* ===================================== */
+.specialists {
+  background: #fffae6;
+}
+
+.main-specialists {
+  background: url("../img/specialists/main/bg.jpg") 50% 50%/cover no-repeat;
+  padding: 100px 0px 115px 0px;
+}
+
+.main-specialists__body {
+  font-size: 0;
+}
+
+.main-specialists__salon {
+  display: inline-block;
+}
+
+.main-specialists__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: calc(73 / 60);
+  text-transform: uppercase;
+  color: #fffae6;
+  margin: 0px 0px 21px 0px;
+}
+
+.main-specialists__subtitle {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #ffffff;
+  max-width: 365px;
+  margin: 0px 0px 60px 0px;
+}
+
+.main-specialists__btn {
+  max-width: 380px;
+  display: block;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.main-specialists__btn:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.main-specialists__images {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-specialists__images img {
+  vertical-align: bottom;
+}
+
+.worker-specialists {
+  padding: 100px 0px;
+}
+
+.worker-specialists__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.worker-specialists__body {
+  text-align: center;
+}
+
+.worker-specialists__item {
+  display: inline-block;
+  width: 30%;
+  text-align: left;
+  color: #101010;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.worker-specialists__item > *:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.worker-specialists__item span {
+  font-weight: 600;
+}
+
+.worker-specialists__item:not(:last-child) {
+  margin: 0px 35px 0px 0px;
+}
+
+.worker-specialists__img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.worker-specialists__post {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #d0202a;
+}
+
+.worker-specialists__name {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.worker-specialists__btn {
+  display: block;
+  text-align: center;
+}
+
+.worker-specialists__btn:last-child {
+  margin: 0px 0px 70px 0px;
+}
+
+.jobs-specialists {
+  padding: 100px 0px;
+}
+
+.jobs-specialists__btn-s {
+  text-align: center;
+  margin: 0px 0px 75px 0px;
+}
+
+.jobs-specialists__btn {
+  display: inline-block;
+}
+
+.jobs-specialists__btn:not(:last-child) {
+  margin: 0px 15px 0px 0px;
+}
+
+.jobs-specialists__body {
+  text-align: center;
+}
+
+/* ===================================== */
+/* ===================================== */
+.stocks {
+  background: #fffae6;
+}
+
+.main-stocks {
+  background: #fffae6;
+  padding: 50px 0px 115px 0px;
+}
+
+.main-stocks__body {
+  font-size: 0;
+}
+
+.main-stocks__salon {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-stocks__img {
+  display: inline-block;
+  width: 50%;
+  vertical-align: bottom;
+}
+
+.main-stocks__title {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: calc(73 / 60);
+  text-transform: uppercase;
+  color: #101010;
+  margin: 0px 0px 21px 0px;
+}
+
+.main-stocks__subtitle {
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  color: #656363;
+  max-width: 365px;
+  margin: 0px 0px 60px 0px;
+}
+
+.main-stocks__btn {
+  max-width: 380px;
+  display: block;
+  padding: 16px 38px;
+  text-align: center;
+}
+
+.main-stocks__btn:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.main-stocks__images {
+  display: inline-block;
+  width: 50%;
+}
+
+.main-stocks__images img {
+  vertical-align: bottom;
+}
+
+.certificate-stocks {
+  padding: 50px 0px;
+}
+
+.certificate-stocks__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.certificate-stocks__body {
+  text-align: center;
+}
+
+.certificate-stocks__item {
+  display: inline-block;
+  width: 24%;
+}
+
+.certificate-stocks__item > *:not(:last-child) {
+  margin: 0px 0px 15px 0px;
+}
+
+.certificate-stocks__img {
+  background: #fffae6;
+}
+
+.certificate-stocks__price {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #101010;
+}
+
+.certificate-stocks__btn {
+  margin: 0px 0px 0px 30px;
+}
+
+.stocks-advantages {
+  padding: 130px 0px;
+}
+
+.stocks-advantages__title {
+  margin: 0px 0px 70px 0px;
+}
+
+.stocks-advantages__body {
+  text-align: center;
+}
+
+.stocks-advantages__item {
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.stocks-advantages__item:not(:nth-child(3n)) {
+  margin: 0px 140px 0px 0px;
+}
+
+.stocks-advantages__num {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 70%;
+  text-transform: uppercase;
+  color: #d0202a;
+}
+
+.stocks-advantages__num::after {
+  content: "";
+  display: inline-block;
+  border-top: 1px solid #bebebe;
+  width: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+.stocks-advantages__text {
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px 0px 30px 0px;
+}
+
 /* ===================================== */
 /* ===================================== */
