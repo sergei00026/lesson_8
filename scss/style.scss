@@ -778,6 +778,7 @@ img {
 	&__item {
 		display: inline-block;
 		width: 49%;
+		vertical-align: top;
 	}
 	// .portfolio-services__sub-item
 	&__sub-item {
@@ -829,7 +830,7 @@ img {
 		line-height: 15px;
 		text-transform: uppercase;
 		color: #656363;
-		margin: 7px 0px 0px 0px;
+		margin: 7px 0px 20px 0px;
 	}
 }
 
@@ -1365,13 +1366,14 @@ img {
 		color: #101010;
 		font-size: 12px;
 		line-height: 15px;
+		vertical-align: top;
 		& > *:not(:last-child) {
 			margin: 0px 0px 10px 0px;
 		}
 		& span {
 			font-weight: 600;
 		}
-		&:not(:last-child) {
+		&:not(:nth-child(3n)) {
 			margin: 0px 35px 0px 0px;
 		}
 	}
@@ -1552,6 +1554,7 @@ img {
 		line-height: 24px;
 		text-transform: uppercase;
 		color: #101010;
+		padding: 0px 0px 0px 30px;
 	}
 	// .certificate-stocks__btn
 	&__btn {

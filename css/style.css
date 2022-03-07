@@ -857,6 +857,7 @@ img {
 .portfolio-services__item {
   display: inline-block;
   width: 49%;
+  vertical-align: top;
 }
 
 .portfolio-services__sub-item {
@@ -908,7 +909,7 @@ img {
   line-height: 15px;
   text-transform: uppercase;
   color: #656363;
-  margin: 7px 0px 0px 0px;
+  margin: 7px 0px 20px 0px;
 }
 
 /* ===================================== */
@@ -1376,6 +1377,7 @@ img {
   color: #101010;
   font-size: 12px;
   line-height: 15px;
+  vertical-align: top;
 }
 
 .worker-specialists__item > *:not(:last-child) {
@@ -1386,7 +1388,7 @@ img {
   font-weight: 600;
 }
 
-.worker-specialists__item:not(:last-child) {
+.worker-specialists__item:not(:nth-child(3n)) {
   margin: 0px 35px 0px 0px;
 }
 
@@ -1532,6 +1534,7 @@ img {
   line-height: 24px;
   text-transform: uppercase;
   color: #101010;
+  padding: 0px 0px 0px 30px;
 }
 
 .certificate-stocks__btn {
