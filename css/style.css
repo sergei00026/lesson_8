@@ -104,6 +104,11 @@ a[class*="__tel"]:hover {
   text-decoration: underline;
 }
 
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .wrapper {
   min-height: 100%;
   margin: 0 auto;
@@ -123,6 +128,7 @@ a[class*="__tel"]:hover {
   -o-transition: 0.5s;
   transition: 0.5s;
   border: 1px solid #d0202a;
+  display: inline-block;
 }
 
 .btn:hover {
@@ -204,7 +210,7 @@ a[class*="__tel"]:hover {
   font-size: 0;
   min-height: 83px;
   vertical-align: middle;
-  padding: 18px 0px;
+  padding: 20px 0px;
 }
 
 .header__logo {
@@ -214,11 +220,13 @@ a[class*="__tel"]:hover {
 
 .header__logo img {
   vertical-align: middle;
+  display: inline-block;
 }
 
 .header__nav {
   display: inline-block;
   margin: 0px 136px 0px 0px;
+  vertical-align: middle;
 }
 
 .header__list {
@@ -227,6 +235,7 @@ a[class*="__tel"]:hover {
 
 .header__list li {
   display: inline-block;
+  padding: 5px 0px;
 }
 
 .header__list li:not(:last-child) {
@@ -259,6 +268,13 @@ a[class*="__tel"]:hover {
   line-height: 150%;
   text-transform: uppercase;
   color: #101010;
+  vertical-align: middle;
+  padding: 5px 0px;
+}
+
+.header__btn {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* ===================================== */
@@ -538,24 +554,52 @@ a[class*="__tel"]:hover {
   margin: 0px 0px 70px 0px;
 }
 
+.stocks-page__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .stocks-page__circle {
-  display: inline-block;
   text-align: center;
   vertical-align: middle;
   width: 352px;
-  height: 352px;
-  padding: 120px 0px 0px 0px;
+  min-height: 352px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border-radius: 50%;
   border: 1px solid #101010;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .stocks-page__circle:not(:last-child) {
   margin: 0px 40px 50px 0px;
 }
 
-.stocks-page__circle_first {
+.stocks-page__circle:hover {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
   background: #d0202a;
-  padding: 130px 0px 0px 0px;
+}
+
+.stocks-page__circle:hover .stocks-page__text,
+.stocks-page__circle:hover .stocks-page__heading {
+  color: #ffffff;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.stocks-page__block {
+  margin: auto;
+  min-height: 50px;
+  max-width: 100%;
 }
 
 .stocks-page__text {
@@ -566,10 +610,6 @@ a[class*="__tel"]:hover {
   margin: 0px 0px 20px 0px;
 }
 
-.stocks-page__text_first {
-  color: #ffffff;
-}
-
 .stocks-page__heading {
   font-weight: 500;
   font-size: 38px;
@@ -578,19 +618,36 @@ a[class*="__tel"]:hover {
   color: #000000;
 }
 
-.stocks-page__heading_first {
-  color: #ffffff;
-}
-
 .stocks-page__ellipse {
   display: inline-block;
   width: 782px;
-  height: 354px;
+  min-height: 354px;
   border: 1px solid #101010;
   border-radius: 205px;
   padding: 100px;
   text-align: center;
   margin: 0px 50px 70px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.stocks-page__ellipse:hover {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  background: #d0202a;
+}
+
+.stocks-page__ellipse:hover .stocks-page__text,
+.stocks-page__ellipse:hover .stocks-page__heading {
+  color: #ffffff;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .stocks-page__svg {
@@ -738,10 +795,6 @@ a[class*="__tel"]:hover {
 
 .main-services__img01 {
   margin: 0px 0px 0px 250px;
-}
-
-.main-services__img02 {
-  bottom: 100px;
 }
 
 /* ===================================== */
@@ -1021,6 +1074,7 @@ a[class*="__tel"]:hover {
 .portfolio-cosmetology__item {
   display: inline-block;
   width: 49%;
+  vertical-align: top;
 }
 
 .portfolio-cosmetology__sub-item {
@@ -1039,6 +1093,7 @@ a[class*="__tel"]:hover {
   line-height: calc(24 / 20);
   text-transform: uppercase;
   color: #000000;
+  padding: 5px 0px;
 }
 
 .portfolio-cosmetology__type-of-service::after {
@@ -1046,7 +1101,7 @@ a[class*="__tel"]:hover {
   display: block;
   width: 100%;
   border-bottom: 1px solid #bebebe;
-  margin: 10px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 .portfolio-cosmetology__price {
@@ -1056,6 +1111,7 @@ a[class*="__tel"]:hover {
   line-height: calc(24 / 20);
   text-transform: uppercase;
   color: #000000;
+  padding: 5px 0px;
 }
 
 .portfolio-cosmetology__price::after {
@@ -1063,7 +1119,7 @@ a[class*="__tel"]:hover {
   display: block;
   width: 100%;
   border-bottom: 1px solid #bebebe;
-  margin: 10px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 
 .portfolio-cosmetology__material {
